@@ -1,0 +1,15 @@
+body {
+    background:linear-gradient(0deg, #94c461 0%, #37708b 100%);
+    color:#fbeb24;
+    box-shadow:
+        inset 0px 0px 8px 8px #fbeb24,
+        0px 0px 15px 30px #fbeb24;
+}
+
+a {
+    color:#fbeb24;
+}
+
+a:visited {
+    color:rgb(196,42,33);
+}

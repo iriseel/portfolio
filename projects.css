@@ -1,0 +1,181 @@
+body {
+    padding:.5em 1em 0em 1em;
+    position:relative;
+}
+
+#homepage {
+
+    position:absolute;
+    top:0;
+    right:0;
+    
+    width:auto;
+    overflow-x:visible;
+    
+    font-size: .75em;
+/*    to match baseline with larger font-sized h2*/
+    line-height: 2.5em;
+    
+}
+
+/*NAV STYLING*/
+.nav {
+    position:absolute;
+    z-index:5;
+    bottom:0em;
+    left:0;
+    width:100%;
+    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items: flex-start;
+    
+    margin-bottom: -10vw;
+    overflow-y:hidden;
+    
+/*    background:blue;*/
+}
+
+.nav div {
+    max-width:calc(100% / 11);
+    height: auto;
+    bottom:-10vw;
+}
+
+.nav_icon {
+    position:relative;
+    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content:center;
+    align-items:flex-start;
+}
+
+.nav_icon a {
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:top;
+    align-content:top;
+}
+
+.nav_icon img {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+
+/*    border:1px solid blue;*/
+}
+
+.nav_icon p {
+    font-size:.5em;
+    line-height: 1.5em;
+    opacity:0;
+    
+    visibility:hidden;
+    position:absolute;
+    top: -1.75em;
+    width:19em;
+    
+    text-align: center;
+/*    border:1px solid blue;*/
+    
+}
+
+.nav_icon:hover p {
+   opacity:1; 
+    visibility:visible;
+}
+
+/*
+
+.nav span {
+    background:white;
+    padding:.25em;
+}
+*/
+
+
+
+
+
+
+
+a {
+/*    mix-blend-mode: color-dodge;*/
+    text-decoration: underline wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset:.15em;
+    
+}
+
+.title h2 {
+/*    to leave room for back link*/
+    max-width:calc(100% - 2em);
+}
+
+/*adding some space between project name and project format*/
+.title h2 i::after {
+    content:"\00a0";
+}
+
+.images {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+/*    background:Red;*/
+}
+
+img, video {
+    padding:.5em 0em;
+    max-height:100vh;
+    display:block;
+    margin: 0 auto;
+    
+}
+
+.vids {
+    margin-bottom:1em;
+}
+
+.specs, .date {
+    font-size: .75em;
+}
+
+.images .specs {
+    margin-bottom:-.5em;
+/*    background:red;*/
+}
+
+.GRIP, .intimacies_book, .intimacies_posters, .karen_krolak, .lag, .liminals, .mundane_militarisms, .precarious_pics, .underground, .wordbook, .ZAO {
+    width:100%;
+/*    same as max-width for p set in style.css*/
+    max-width:1200px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    margin:0 auto;
+    position:relative;
+/*    background:blue;*/
+}
+
+.GRIP > div, .intimacies_book > div, .intimacies_posters > div, .karen_krolak > div, .lag > div, .liminals > div, .mundane_militarisms > div, .precarious_pics > div, .underground > div, .wordbook > div, .ZAO > div {
+    display:block;
+    width:100%;
+}
+
+/*??*/
+.specs p {
+    padding: 0;
+    margin:0;
+}
+
+
+
+.vids, .mundane_militarisms img, .precarious_pics img, .karen_krolak img {
+    filter:drop-shadow(rgba(0,0,0,.2) 0px 0px 10px);
+}

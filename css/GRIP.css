@@ -1,0 +1,18 @@
+body {
+    background:black;
+    color:white;
+    box-shadow:
+        inset 0px 0px 10px 2px #ed1f88,
+        inset 0px 0px 10px 10px #fbeb24,
+        0px 0px 7px 7px #ed1f88,
+        0px 0px 15px 15px #12addd,
+        0px 0px 15px 30px black;
+}
+
+a {
+    color:white;
+}
+
+a:visited {
+    color:grey;
+}

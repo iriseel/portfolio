@@ -1,0 +1,13 @@
+body {
+    background:white;
+    color:blue;
+    box-shadow:0px 0px 15px 20px white, 0px 0px 15px 30px rgba(255,84,20,1);
+}
+
+a {
+    color:blue;
+}
+
+a:visited {
+    color:#00067C;
+}

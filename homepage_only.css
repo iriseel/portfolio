@@ -1,0 +1,106 @@
+body {
+/*    otherwise the blurred box-shadow of bottom element adds white space*/
+    margin-bottom:-30px;
+}
+
+.mundane_militarisms {
+    background:beige;
+    color:black;
+    box-shadow:0px 0px 15px 30px beige;
+}
+
+.karen_krolak {
+    background:white;
+    color:blue;
+    box-shadow:0px 0px 15px 20px white, 0px 0px 15px 30px rgba(255,84,20,1);
+}
+
+.precarious_pics {
+    background:#1900D6;
+    color:white;
+    
+    box-shadow:0px 0px 15px 30px #1900D6;
+}
+.precarious_pics p {
+    background: linear-gradient(45deg,  rgba(72,104,255,1) 6%,  rgba(0, 110, 94, 1) 12%, rgba(84,176,221,1) 18%, rgba(95,137,255,1) 24%, rgba(28,249,255,1) 30%,  rgba(0, 168, 108, 1) 40%, rgba(0,212,255,1) 46%, rgba(0,255,209,1) 50%, rgba(157,240,255,1) 59%, rgba(136,160,236,1) 65%, rgba(39,231,223,1) 78%,  rgba(25, 135, 0, 1) 86%, rgba(24,55,255,1) 91%, rgba(9,9,121,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .6px;
+  -webkit-text-stroke-color: blue;
+}
+
+.intimacies_book, .intimacies_posters {
+    background:#3a9dba;
+    color:#ed9fae;
+    box-shadow:0px 0px 15px 30px #3a9dba;
+}
+
+.lag {
+    background:white;
+    color:black;
+    box-shadow:
+        inset 0px 0px 13px 0px yellow, 
+        0px 0px 15px 15px yellow, 
+        0px 0px 15px 23px magenta,
+        0px 0px 15px 30px cyan;
+}
+
+.liminals {
+    background:linear-gradient(0deg, #94c461 0%, #37708b 100%);
+    color:#fbeb24;
+    box-shadow:
+        inset 0px 0px 8px 8px #fbeb24,
+        0px 0px 15px 30px #fbeb24;
+}
+
+/*
+.liminals::before {
+  content: "";
+  background: linear-gradient(0deg, #94c461 0%, #37708b 100%);
+  position: absolute;
+  height: 50%;
+  width: 120%;
+    transform: translateY(-50%);
+  z-index: -1;
+  filter: blur(10px);
+}
+*/
+
+.GRIP {
+    background:black;
+    color:white;
+    box-shadow:
+        inset 0px 0px 10px 2px #ed1f88,
+        inset 0px 0px 10px 10px #fbeb24,
+        0px 0px 7px 7px #ed1f88,
+        0px 0px 15px 15px #12addd,
+        0px 0px 15px 30px black;
+}
+
+.underground {
+    background:white;
+    color:black;
+    box-shadow:0px 0px 15px 20px white, 0px 0px 15px 30px black;
+}
+
+.wordbook {
+    background:#fffad9;
+    color:#ff00d1;
+    box-shadow:0px 0px 15px 30px #fffad9;
+}
+
+.wordbook .pink {
+    color:#ff00d1;
+}
+.wordbook .green {
+    color:#009432;
+}
+.wordbook .orange {
+    color:#ffb607;
+}
+
+.zao {
+    background:#fe0000;
+    color:#ede4c3;
+    box-shadow:0px 0px 15px 30px #fe0000;
+}
