@@ -73,12 +73,12 @@ body {
 
 .nav_icon p {
     font-size:.5em;
-    line-height: 1.5em;
+    line-height: 1.25em;
     opacity:0;
     
     visibility:hidden;
     position:absolute;
-    top: -1.75em;
+    top: -1.5em;
     width:19em;
     
     text-align: center;
@@ -99,11 +99,61 @@ body {
 }
 */
 
+.prompt {
+/*    ??this large font-size makes ellipsis take up larger height than visible, so cursor:pointer hover is activated in the line above??*/
+    font-size:2em;
+    line-height:0em;
+    -webkit-text-stroke-width: 1px;
+    
+    /* name, duration, timing, delay, iteration count, direction*/
+    animation: guang 10s ease-in-out 2s infinite;
+}
 
+.prompt:hover {
+    cursor:pointer;
+    
+}
 
+@keyframes guang {
+    0% {
+        opacity:1;
+    }
+    5% {
+        opacity:.3;
+    }
+    10% {
+        opacity:1;
+    }
+    15% {
+        opacity:.3;
+    }
+    20% {
+        opacity:1;
+    }
+    
+    100% {
+        opacity:1;
+    }
+    
+}
 
+.full_description {
+    /*    ??can't get transition on display??*/
+    /*    position:absolute;*/
+    display:none;
+    opacity:0;
+    transition: opacity 1s;
+    animation-play-state: running;
+}
 
-
+.visibility {
+    /*    ??can't get transition on display??*/
+    /*    position:relative;*/
+    display:inline;
+    opacity:1;
+    /*    ??this doesn't work??*/
+    animation-play-state: paused;
+}
 
 a {
 /*    mix-blend-mode: color-dodge;*/

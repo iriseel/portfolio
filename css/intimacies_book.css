@@ -10,3 +10,8 @@ a {
 a:visited {
     color:#D9919F;
 }
+
+.prompt {
+    color:#3a9dba;
+    -webkit-text-stroke-color: #ed9fae;
+}

@@ -11,3 +11,8 @@ a {
 a:visited {
     color:#BFBFAF;
 }
+
+.prompt {
+    color:beige;
+    -webkit-text-stroke-color: black;
+}

@@ -20,3 +20,8 @@ a {
 a:visited {
     -webkit-text-stroke-color: #005959;
 }
+
+.prompt {
+    color:blue;
+    -webkit-text-stroke-color: aqua;
+}

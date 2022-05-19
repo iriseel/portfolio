@@ -16,3 +16,8 @@ a {
 a:visited {
     color:grey;
 }
+
+.prompt {
+    color:black;
+    -webkit-text-stroke-color: white;
+}

@@ -23,3 +23,8 @@ a {
 a:visited {
     color:#ffb607;
 }
+
+.prompt {
+    color:#fffad9;
+    -webkit-text-stroke-color: #ff00d1;
+}

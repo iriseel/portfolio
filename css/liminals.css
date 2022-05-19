@@ -13,3 +13,8 @@ a {
 a:visited {
     color:rgb(196,42,33);
 }
+
+.prompt {
+    color:;
+    -webkit-text-stroke-color: ;
+}

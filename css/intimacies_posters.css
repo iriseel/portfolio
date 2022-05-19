@@ -10,3 +10,7 @@ a {
 a:visited {
     color:#D9919F;
 }
+
+.prompt {
+    color:blue;
+}
