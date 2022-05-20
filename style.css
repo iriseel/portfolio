@@ -12,6 +12,12 @@
     font-style:italic;
 }
 
+sup {
+    font-size:.5em;
+    position:relative;
+    top:-.5em;
+}
+
 * {
     box-sizing:border-box;
     hyphens: auto;
