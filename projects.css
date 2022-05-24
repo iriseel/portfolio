@@ -237,6 +237,15 @@ img, video {
 /*    background:blue;*/
 }
 
+/*just fineagling distance between project and bottom nav*/
+.intimacies_book, .intimacies_posters, .karen_krolak, .mundane_militarisms, .precarious_pics, .underground, .wordbook, .ZAO {
+    margin-bottom:-1.5em;
+}
+
+.GRIP {
+    margin-bottom:1em;
+}
+
 .GRIP > div, .intimacies_book > div, .intimacies_posters > div, .karen_krolak > div, .lag > div, .liminals > div, .mundane_militarisms > div, .precarious_pics > div, .underground > div, .wordbook > div, .ZAO > div {
     display:block;
     width:100%;
@@ -250,13 +259,30 @@ img, video {
 
 /*MEDIA RULES*/
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .nav_text:first-of-type {
         max-width:8em; 
     }
 }
 
+/*aspect ratio is width to height*/
+@media (max-aspect-ratio: 6/6) {
+    .nav div {
+        bottom:-6vmax;
+    }
+}
 
+@media (max-aspect-ratio: 5/6) {
+    .nav div {
+        bottom:-5.5vmax;
+    }
+}
+
+@media (max-aspect-ratio: 4/7) {
+    .nav div {
+        bottom:-5vmax;
+    }
+}
 
 /*
 @media only screen and (max-width: 1400px) {
