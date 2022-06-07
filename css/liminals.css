@@ -14,7 +14,21 @@ a:visited {
     color:rgb(196,42,33);
 }
 
+/*
 .prompt {
     color:;
     -webkit-text-stroke-color: ;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: #94c461;
 }
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: #fbeb24;
+}
+

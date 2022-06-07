@@ -95,7 +95,8 @@ body {
 /*??This isn't working, it's selecting all .nav_text.*/
 .nav_text:first-of-type {
     display:inline-block;
-    max-width:10em; margin-top:-2.75em;
+    max-width:10em; 
+    margin-top:-2.75em;
 /*    background:red;*/
 }
 
@@ -107,16 +108,39 @@ body {
 }
 */
 
-.prompt {
+.description {
+    max-height:calc(1.33em * 5);
+    overflow-y:auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* scrollbar width */
+.description::-webkit-scrollbar {
+  width: .25em;
+}
+
+.description p:first-child {
+    margin-top:0;
+}
+
+.description p:last-child {
+    margin-bottom:0;
+}
+
+/*.prompt {*/
 /*    ??this large font-size makes ellipsis take up larger height than visible, so cursor:pointer hover is activated in the line above??*/
+/*
     font-size:2em;
     line-height:0em;
     -webkit-text-stroke-width: 1px;
+*/
     
     /* name, duration, timing, delay, iteration count, direction*/
-    animation: guang 10s ease-in-out 2s infinite;
-}
+/*    animation: guang 10s ease-in-out 2s infinite;*/
+/*}*/
 
+/*
 .prompt:hover {
     cursor:pointer;
     
@@ -144,24 +168,31 @@ body {
     }
     
 }
+*/
 
-.full_description {
+/*.full_description {*/
     /*    ??can't get transition on display??*/
     /*    position:absolute;*/
+/*
     display:none;
     opacity:0;
     transition: opacity 1s;
     animation-play-state: running;
 }
+*/
 
-.visibility {
+/*.visibility {*/
     /*    ??can't get transition on display??*/
     /*    position:relative;*/
+/*
     display:inline;
     opacity:1;
+*/
     /*    ??this doesn't work??*/
+/*
     animation-play-state: paused;
 }
+*/
 
 a {
 /*    mix-blend-mode: color-dodge;*/

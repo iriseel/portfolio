@@ -21,7 +21,20 @@ a:visited {
     -webkit-text-stroke-color: #005959;
 }
 
+/*
 .prompt {
     color:blue;
     -webkit-text-stroke-color: aqua;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: rgba(9,9,121,1);
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: aqua;
 }

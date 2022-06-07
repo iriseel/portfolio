@@ -24,7 +24,21 @@ a:visited {
     color:#ffb607;
 }
 
+/*
 .prompt {
     color:#fffad9;
     -webkit-text-stroke-color: #ffb607;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: #009432;
 }
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: #ffb607;
+}
+

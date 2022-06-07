@@ -16,7 +16,20 @@ a:visited {
     color:black;
 }
 
+/*
 .prompt {
     color:white;
     -webkit-text-stroke-color: black;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: cyan;
 }

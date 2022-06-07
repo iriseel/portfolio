@@ -12,7 +12,20 @@ a:visited {
     color:#00067C;
 }
 
+/*
 .prompt {
     color:white;
     -webkit-text-stroke-color: blue;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: blue;
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: rgba(255,84,20,1);
 }
