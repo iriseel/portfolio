@@ -236,7 +236,7 @@ iframe {
     margin:0;
 }
 
-.LSWK, .bLink, .Open_Studios, .runic, .tracing, .Quotations, .burnout, .GRIP, .intimacies_book, .intimacies_posters, .karen_krolak, .lag, .liminals, .mundane_militarisms, .precarious_pics, .underground, .wordbook, .ZAO {
+.LSWK, .bLink, .Open_Studios, .JoLT, .Paprika, .Speculative_States, .runic, .tracing, .Quotations, .burnout, .GRIP, .intimacies_book, .intimacies_posters, .karen_krolak, .lag, .liminals, .mundane_militarisms, .precarious_pics, .underground, .wordbook, .ZAO {
     width:100%;
 /*    same as max-width for p set in style.css*/
     max-width:1200px;
@@ -257,7 +257,7 @@ iframe {
     margin-bottom:1em;
 }
 
-.LSWK > div, .bLink > div, .Open_Studios > div, .runic > div, .tracing > div, .Quotations > div, .burnout > div, .GRIP > div, .intimacies_book > div, .intimacies_posters > div, .karen_krolak > div, .lag > div, .liminals > div, .mundane_militarisms > div, .precarious_pics > div, .underground > div, .wordbook > div, .ZAO > div {
+.LSWK > div, .bLink > div, .Open_Studios > div, .JoLT > div, .Paprika > div, .Speculative_States > div, .runic > div, .tracing > div, .Quotations > div, .burnout > div, .GRIP > div, .intimacies_book > div, .intimacies_posters > div, .karen_krolak > div, .lag > div, .liminals > div, .mundane_militarisms > div, .precarious_pics > div, .underground > div, .wordbook > div, .ZAO > div {
     display:block;
     width:100%;
 }
