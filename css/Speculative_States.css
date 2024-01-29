@@ -28,3 +28,12 @@ a:visited {
 .description::-webkit-scrollbar-thumb {
   background: white;
 }
+
+
+.unstately {
+  font-family: "unstately";
+  line-height:1.8em;
+  letter-spacing:.12em;
+  color:white;
+  vertical-align:bottom;
+}

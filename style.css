@@ -14,12 +14,24 @@
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&display=swap');
+
+@font-face {
+    font-family: "unstately";
+    src: url("fonts/Unstately.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+  
+
 @font-face {
     font-family: "runic";
     src: url("fonts/Runic_Siri.otf") format("opentype");
     font-weight:normal;
     font-style:normal;
 }
+
+
 
 sup {
     font-size:.5em;
@@ -44,6 +56,13 @@ body {
     overflow-x:hidden;
     letter-spacing:.75px;
 }
+
+span.chinese {
+    font-family: "Noto Serif SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 img {
     max-width:100%;
@@ -76,7 +95,7 @@ p {
 
 .project, .intro, .self_intro {
     display:block;
-    padding:.25em 0.5em;
+    padding:0 0.5em;
     width:100%;
     display:flex;
     flex-flow:row wrap;
@@ -94,7 +113,12 @@ p {
 }
 
 .project {
+    /* margin is for the box-shadows */
     margin:60px 0;
+}
+
+.project.Cai_Yongchun, .project.brood, .project.PRLectures, .project.runic {
+    margin:30px 0;
 }
 
 .image_icon {
@@ -104,9 +128,11 @@ p {
 .image_icon img, .image_icon video {
   position: relative;
   display: inline;
-  width:5em;
+  max-height:6em;
+  max-width:10em;
 }
 
 .image_icon video {
     filter:drop-shadow(rgba(0,0,0,.4) 0px 0px 5px);
 }
+
